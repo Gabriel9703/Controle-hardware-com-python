@@ -26,6 +26,7 @@ def pacotes_rede():
     erros_enviados = rede.errout
     print(f'Erros enviados : {erros_enviados}')
     print("-" * 30)
+    
 try:
     while True:
         pacotes_rede()
